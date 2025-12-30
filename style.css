@@ -9,9 +9,9 @@ body {
 }
 
 .gridBox {
-    flex: 0 0 50px;
-    width: 50px;
-    height: 50px;
+    flex: 0 1 22%;
+    width: 75px;
+    height: 75px;
     background-color: khaki;
 
 }
@@ -20,13 +20,15 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex: 0;
+    justify-content: space-around;
+    align-self: center;
+
+    align-content: stretch;
     gap: 8px;
     flex-wrap: wrap;
 
     height: 73vh;
-    max-width: 50px;
+    max-width: 500px;
     padding-left: 150px;
     padding-right: 150px;
 }
