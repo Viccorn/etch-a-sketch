@@ -5,25 +5,36 @@ body {
     justify-content: space-between;
     min-height: 100vh;
 
-
 }
 
-.gridBox {
-    flex: 0 0 22%;
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 55px;
+    gap: 15px;
+}
 
-    background-color: burlywood;
+.buttonBox button {
+    background-color: tomato;
+    color: white;
+    height: 25px;
+    font-weight: bold;
 }
 
 .container {
     display: flex;
     flex-grow: 1;
-    gap: 4px;
+    /* gap: 4px; */
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    border: 8px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 0.66);
     align-self: center;
-    width: 500px;
-    padding: 50px
+    aspect-ratio: 1/1;
+
+    margin: 40px
 }
 
 .header {
